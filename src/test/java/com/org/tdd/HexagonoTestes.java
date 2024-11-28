@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class HexagonoTeste {
+public class HexagonoTestes {
     private static Calculadora hexagono;
 
     @BeforeEach
@@ -16,7 +16,7 @@ public class HexagonoTeste {
 
     @Test
     public void testeCasoMedidasCertasForemPassadas(){
-        double resposta = hexagono.calcularArea(new double[]{8});
+        double resposta = hexagono.calcularArea(new double[]{8  });
         assertEquals(166.28, resposta);
     }
 
